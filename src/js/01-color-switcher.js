@@ -11,7 +11,7 @@ let timerId = null;
 startBtn.addEventListener('click', () => {
   timerId = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
-  }, 2000);
+  }, 1000);
   startBtn.setAttribute('disabled', true);
   endBtn.removeAttribute('disabled');
 });
